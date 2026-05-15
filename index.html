@@ -440,7 +440,7 @@
             };
 
             try {
-                const response = await fetch(SCRIPT_URL, {
+                const response = await fetch(SCRIPT_URL, {https://script.google.com/macros/s/AKfycbwr9bOCftVxxOMxHdI9TaAKtumVPFExrKyt3NxEIjkb6dLtLqIz6pgOaj8XTXHDf8o0ww/exec
                     method: 'POST',
                     body: JSON.stringify(payload),
                     headers: { 'Content-Type': 'text/plain;charset=utf-8' },
@@ -515,7 +515,7 @@
             if(confirm("Hapus data dari database?")) {
                 btn.disabled = true;
                 try {
-                    await fetch(SCRIPT_URL, {
+                    await fetch(SCRIPT_URL, {https://script.google.com/macros/s/AKfycbwr9bOCftVxxOMxHdI9TaAKtumVPFExrKyt3NxEIjkb6dLtLqIz6pgOaj8XTXHDf8o0ww/exec
                         method: 'POST',
                         body: JSON.stringify({ action: 'delete', id: id }),
                         headers: { 'Content-Type': 'text/plain;charset=utf-8' }
